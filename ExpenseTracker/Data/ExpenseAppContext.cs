@@ -9,7 +9,8 @@ namespace ExpenseTracker.Data
         {
 
         }
-        public DbSet<Expence> Expences { get; set; } 
+        public DbSet<Expense> Expenses { get; set; }
+
 
     }
 }

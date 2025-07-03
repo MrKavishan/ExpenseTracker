@@ -2,7 +2,7 @@
 
 namespace ExpenseTracker.Models
 {
-    public class Expence
+    public class Expense
     {
         public int Id { get; set; }
         [Required] public string Description { get; set; } = null!;
